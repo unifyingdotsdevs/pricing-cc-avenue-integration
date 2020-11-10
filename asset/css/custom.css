@@ -1,0 +1,512 @@
+.form-group {
+	position: relative;
+}
+
+.proteen_pricing table tr th:not(:first-child) {
+	padding: 20px 0 25px 0;
+}
+
+.proteen_pricing table tbody tr td .strikethrough {
+	font-size: 12px;
+}
+.proteen_pricing table tr td:not(:first-child) {
+	text-align: center;
+}
+.proteen_pricing table tr .additional_text {
+	line-height: 22px;
+}
+
+.proteen_pricing table tr th {
+	width: 19%;
+}
+.proteen_pricing table tr th:first-of-type {
+	width: 24%;
+}
+
+.proteen_pricing table tr td:first-of-type {
+	font-weight: bold;
+}
+.pricing_addon table {
+	height: 100%;
+	vertical-align: middle;
+}
+.pricing_addon table td {
+	border: none;
+}
+.pricing_addon table tbody tr:first-of-type p {
+	min-height: 60px;
+	font-size: 20px;
+	font-weight: 900;
+}
+.pricing_addon table tbody tr td .strikethrough {
+	font-size: 12px;
+}
+.pricing_addon table tbody tr td sub {
+	font-size: 9px;
+}
+.pricing_addon table tbody tr td a {
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.pricing_addon table tbody tr:last-of-type td{
+	border: 0px solid #ebebee;
+	font-size: 14px;
+	color:#000;
+	padding-top: 13px;
+}
+
+.p-tb-0 {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+
+
+.proteen_pricing table {
+/* 	border: none;
+	border-bottom: 1px solid #ebebee; */
+	border-spacing: 10px 0 !important;
+	border-collapse: separate !important;
+}
+.pricing_addon table {
+	box-shadow: 6px 5px 14px rgba(0, 0, 0, 0.08);
+}
+.proteen_pricing table tr td, .proteen_pricing table tr th {
+    border-bottom: none;
+}
+.proteen_pricing table tr:last-of-type td {
+	border-bottom: 1px solid #ebebee;
+}
+.proteen_pricing table td{
+	padding: 5px 7px;
+}
+/* Table Row Reomove*/
+.proteen_pricing table tr td, .proteen_pricing table tr th {
+  border: none;
+  border-left: 1px solid #ebebee;
+  border-right: 1px solid #ebebee;
+}
+
+.proteen_pricing table tr:first-of-type th {
+	border-top: 1px solid #00BDA6;
+	border-left: 1px solid #00BDA6;
+	border-left: 1px solid #00BDA6;
+	border-radius: 0.6em 0.6em 0 0;
+	background: #00BDA6;
+}
+.proteen_pricing table tr:first-of-type th.superStyle {
+	background: #FF6D34;
+	border-color: #FF6D34;
+}
+
+.proteen_pricing table tr:last-of-type td {
+    border-radius: 0 0 0.6em 0.6em;
+}
+
+.proteen_pricing table tr th:first-of-type, .proteen_pricing table tr td:first-of-type { 
+  border: none;
+}
+
+.proteen_pricing table tr:first-of-type th:first-of-type {
+	border-bottom: none;
+}
+.proteen_pricing .fa.fa-check-circle {
+	color: #00bda6 !important;
+	font-size: 20px;
+}
+.superStyle {
+	background-color: #FF6D34;
+}
+.superStyle h4, .superStyle p, .superStyle .strikethrough, .superStyle sub {
+	color: white !important;
+}
+.proteen_pricing table .text-sm sub, .proteen_pricing table .strikethrough {
+    color: white;
+}
+.proteen_pricing table .panel-title.price{
+	color: white;
+}
+
+.proteen_pricing table .text-sm {
+	color: white;
+}
+
+.proteen_pricing table .btn.btn-info {
+	background: transparent;
+	color: #00BDA6;
+	font-weight: 600;
+	font-size: 16px;
+	border: 2px solid #00BDA6;
+	padding: 7px 0;
+	max-width: 120px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+.proteen_pricing table .btn.btn-info:hover {
+	background-color: #00BDA6;
+	color: white;
+}
+.proteen_pricing table .superStyle-block .btn.btn-info {
+	color: #FF6D34;
+	border: 2px solid #FF6D34;
+}
+.proteen_pricing table .superStyle-block .btn.btn-info:hover {
+	background-color: #FF6D34;
+	color: white;
+}
+
+.proteen_pricing table tr td.superStyle-block, .proteen_pricing table tr th.superStyle-block {
+	border-color: #FF6D34;
+	border-width: 2px;
+}
+
+
+.strikethrough {
+  position: relative;
+  font-size: 13px;
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+  color: black;
+  -webkit-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+  -ms-transform:rotate(4deg);
+  -o-transform:rotate(4deg);
+  transform:rotate(4deg);
+}
+
+.proteen_pricing table .text-sm .originalprice sub{
+	font-size: 12px;
+}
+
+
+.princing_addon_package h4 {
+	background: #00BDA6;
+	text-align: center;
+	display: block;
+	color: white;
+	font-size: 20px;
+	line-height: 28px;
+	min-height: 78px;
+	padding: 10px;
+	border-radius: 10px 10px 0 0;
+	font-weight: 700;
+	border: 1px solid #00BDA6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.princing_addon_package.selected-addon h4 {
+	background: #FF6D34;
+	border-color: #FF6D34;
+}
+
+.princing_addon_package .package_info .btn.btn-info.addon-selection.added-pack {
+	border-color: #FF6D34;
+	color: #FF6D34;
+}
+.princing_addon_package .package_info .btn.btn-info.addon-selection.added-pack:hover {
+	background: #FF6D34;
+	color: white;
+}
+.princing_addon_package .package_info {
+	border: 1px solid #ebebee;
+	border-top: 0;
+	border-radius: 0 0 10px 10px;
+	text-align: center;
+	padding: 20px 5px;
+}
+.princing_addon_package.selected-addon .package_info {
+	border: 2px solid #FF6D34;
+}
+
+.princing_addon_package .package_info .old_price .strikethrough {
+	font-size: 15px;
+}
+
+.princing_addon_package .package_info .pricing_original_price span {
+	font-size: 18px;
+	color: #FF6D34;
+	font-weight: 600;
+	display: inline-block;
+	margin-bottom: 18px;
+}
+
+.princing_addon_package .package_info .btn.btn-info {
+		background: transparent;
+	color: #00BDA6;
+	font-weight: 600;
+	font-size: 16px;
+	border: 2px solid #00BDA6;
+	padding: 7px 0;
+	max-width: 120px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.princing_addon_package .package_info .btn.btn-info:hover {
+	color: white;
+	background: #00BDA6;
+}
+.princing_addon_package {
+	margin-bottom: 20px !important;
+}
+.princing_addon_package .package_info .addon_text {
+	font-size: 15px;
+	line-height: 1.3;
+}
+.checkout-table td {
+	border: none;
+}
+.checkout-table {
+	border: 1px solid #ebebee;
+	border-radius: 10px;
+	border-collapse: separate;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.checkout-table tr td {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.checkout-table tr td .plan-name {
+	position: relative;
+	padding-left: 25px;
+	display: initial;
+}
+.checkout-table tr td .plan-name::before {
+	position: absolute;
+	left: 0;
+	content: '-';
+	margin-left: 15px;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: block;
+}
+.checkout-table tr td:nth-child(2) {
+	text-align: right;	
+	width: 115px;
+}
+.checkout-table .pack-name {
+	font-size: 18px;
+	color: #FF6D34;
+	font-weight: 600;
+	display: inline-block;
+	margin-bottom: 18px;
+}
+.pricing_element  {
+	border-radius: 0.6em 0.6em;
+	border: 1px solid #ebebee;
+	margin-bottom: 20px !important;
+	padding-bottom: 10px;
+}
+.pricing_element .pricing_header {
+	border-top: 1px solid #00BDA6;
+	border-left: 1px solid #00BDA6;
+	border-left: 1px solid #00BDA6;
+	border-radius: 0.6em 0.6em 0 0;
+	background: #00BDA6;
+	padding: 10px 0;
+}
+
+.pricing_element.superStyle-block .pricing_header {
+	background: #FF6D34;
+	border-color: #FF6D34;
+}
+.pricing_element.superStyle-block {
+	border: 2px solid #FF6D34;
+}
+
+.pricing_element .pricing_header h4 , .pricing_element .pricing_header p {
+	color: white;
+}
+.pricing_element .plan-element {
+	padding: 3px 10px;
+}
+.pricing_element .plan-element i {
+	padding-right: 10px;
+}
+.plan-action-btn {
+	text-align: center;
+}
+.pricing_element .plan-action-btn .btn {
+	background: transparent;
+	color: #00BDA6;
+	font-weight: 600;
+	font-size: 16px;
+	border: 2px solid #00BDA6;
+	padding: 7px 0;
+	max-width: 120px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+} 
+
+
+.pricing_element .plan-action-btn .btn:hover {
+	background-color: #00BDA6;
+	color: white;
+}
+.pricing_element.superStyle-block .plan-action-btn .btn {
+	color: #FF6D34;
+	border: 2px solid #FF6D34;
+}
+.pricing_element.superStyle-block .plan-action-btn .btn:hover {
+	background-color: #FF6D34;
+	color: white;
+}
+
+.proteen_pricing.mobile {
+	display: none;
+}
+
+.remove_addon {
+	font-size: 10px;
+	margin-left: 6px;
+	border: 1px solid #FF6D34;
+	text-align: center;
+	display: inline-block;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	color: #FF6D34;
+	font-weight: 700;
+	line-height: 1.8;
+	cursor: pointer;
+}
+
+#promocode span, #promocode input {
+	display: inline-block;
+	margin-right: 10px;
+}
+#promocode input {
+ 	height: 40px;
+ 	padding-left: 10px;
+ 	background: transparent;
+ 	border: 1px solid #ebebee;
+}
+#promocode {
+	padding-top: 20px;
+}
+
+#coupon-btn {
+ 	line-height: 1;
+ 	height: auto;
+ 	vertical-align: middle;
+ 	padding: 9px 20px;
+}
+.addon-item td {
+	padding-bottom: 20px;
+}
+.checkout-table .pack-title td {
+	padding-top: 10px;
+}
+.checkout-table .promocode-row td:not(:first-child) {
+	padding-top: 15px;
+}
+.promocode-row td {
+	border-top: 1px solid #ebebee;
+}
+.add-on-titles td {
+	padding-bottom: 10px !important;
+} 
+.addon-item td {
+	padding-bottom: 5px !important;
+}
+.checkout-table .total td {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#promocode span {
+	color: #FF6D34;
+}
+.total td:first-of-type {
+	color: #FF6D34;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 600;
+}
+.total td:last-of-type {
+	font-weight: 600;
+}
+
+#coupon-status {
+	color: #00bda6 !important;
+	font-weight: 600;
+	margin-left: 10px;
+}
+
+#discount-amount {
+	font-weight: 600;
+}
+.btn-payment {
+	margin-bottom: 30px !important;
+	padding: 10px;
+	height: auto;
+	line-height: 1;
+}
+.pricing_original_price span span {
+	font-weight: normal !important;
+}
+.originalprice {
+	font-size: 20px;
+}
+.vc_tta-tab {
+	border: 2px solid #00bda6 !important
+}
+
+.proteen_pricing.web table tr:nth-last-child(2) td:first-of-type{
+  position: relative;
+  padding-left: 10px;
+  left : 5px;
+  color: #FF6D34;
+}
+
+.proteen_pricing.web table tr:nth-last-child(2) td:first-of-type:before{
+  content:  '';
+  position: absolute;
+  display: block;
+  width: 4px;
+  top: 10px;
+  height: 50%;
+  background: #00BDA6;
+  left: 0;
+}
+.help-block {
+  color: red;
+  font-size: 12px;
+  padding: 0;
+  margin-top: 10px;
+  line-height: 0;
+  display: block;
+}
+#fxo-widget-iframe {
+	width: 90px !important;
+}
+@media(max-width: 991px ) {
+	.proteen_pricing.mobile {
+		display: block;
+	}
+	.proteen_pricing.web {
+		display: none;
+	}
+	#coupon-btn {
+		margin-top: 10px;
+	}
+}
+
+@media(max-width: 767px) {
+	.g-recaptcha {
+		transform: scale(0.80);
+		transform-origin: 0 0;
+	}
+}
